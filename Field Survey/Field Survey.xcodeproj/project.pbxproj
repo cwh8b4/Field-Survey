@@ -13,6 +13,9 @@
 		26F06DAF1F2187D500C001AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F06DAD1F2187D500C001AB /* LaunchScreen.storyboard */; };
 		26F06DBA1F2187D500C001AB /* Field_SurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F06DB91F2187D500C001AB /* Field_SurveyTests.swift */; };
 		26F06DC51F2187D500C001AB /* Field_SurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F06DC41F2187D500C001AB /* Field_SurveyUITests.swift */; };
+		26F06DD61F218B6C00C001AB /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = 26F06DD51F218B6C00C001AB /* field_observations.json */; };
+		26F06DD81F218CAD00C001AB /* sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F06DD71F218CAD00C001AB /* sport.swift */; };
+		26F06DDA1F21915400C001AB /* FieldEventSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F06DD91F21915400C001AB /* FieldEventSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		26F06DC01F2187D500C001AB /* Field SurveyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Field SurveyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F06DC41F2187D500C001AB /* Field_SurveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field_SurveyUITests.swift; sourceTree = "<group>"; };
 		26F06DC61F2187D500C001AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F06DD51F218B6C00C001AB /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
+		26F06DD71F218CAD00C001AB /* sport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sport.swift; sourceTree = "<group>"; };
+		26F06DD91F21915400C001AB /* FieldEventSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldEventSwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,7 @@
 		26F06DA31F2187D500C001AB /* Field Survey */ = {
 			isa = PBXGroup;
 			children = (
+				26F06DD21F218A8B00C001AB /* model */,
 				26F06DA41F2187D500C001AB /* AppDelegate.swift */,
 				26F06DA81F2187D500C001AB /* Main.storyboard */,
 				26F06DAB1F2187D500C001AB /* Assets.xcassets */,
@@ -120,6 +127,16 @@
 				26F06DC61F2187D500C001AB /* Info.plist */,
 			);
 			path = "Field SurveyUITests";
+			sourceTree = "<group>";
+		};
+		26F06DD21F218A8B00C001AB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				26F06DD51F218B6C00C001AB /* field_observations.json */,
+				26F06DD71F218CAD00C001AB /* sport.swift */,
+				26F06DD91F21915400C001AB /* FieldEventSwift.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26F06DAF1F2187D500C001AB /* LaunchScreen.storyboard in Resources */,
+				26F06DD61F218B6C00C001AB /* field_observations.json in Resources */,
 				26F06DAC1F2187D500C001AB /* Assets.xcassets in Resources */,
 				26F06DAA1F2187D500C001AB /* Main.storyboard in Resources */,
 			);
@@ -256,7 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26F06DD81F218CAD00C001AB /* sport.swift in Sources */,
 				26F06DA51F2187D500C001AB /* AppDelegate.swift in Sources */,
+				26F06DDA1F21915400C001AB /* FieldEventSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
